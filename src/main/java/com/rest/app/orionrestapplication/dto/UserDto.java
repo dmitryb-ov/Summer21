@@ -3,17 +3,14 @@ package com.rest.app.orionrestapplication.dto;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.rest.app.orionrestapplication.model.User;
 import lombok.Data;
+import lombok.extern.log4j.Log4j;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
+@Log4j
 public class UserDto extends BaseUserDto {
-//    private Long id;
-//    private String username;
-//    private String firstName;
-//    private String lastName;
-//    private String email;
 
-    public User toUser(){
+    public User toUser() {
         var user = new User();
         user.setId(id);
         user.setUsername(username);
@@ -21,10 +18,11 @@ public class UserDto extends BaseUserDto {
         user.setLastName(lastName);
         user.setEmail(email);
 
+        log.info("Convert entity to user. " + user);
         return user;
     }
 
-    public static UserDto fromUser(User user){
+    public static UserDto fromUser(User user) {
         var userDto = new UserDto();
         userDto.setId(user.getId());
         userDto.setUsername(user.getUsername());
@@ -32,6 +30,7 @@ public class UserDto extends BaseUserDto {
         userDto.setLastName(user.getLastName());
         userDto.setEmail(user.getEmail());
 
+        log.info("Convert user to userDto");
         return userDto;
     }
 }

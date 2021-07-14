@@ -1,9 +1,12 @@
 package com.rest.app.orionrestapplication.rest;
 
+import com.rest.app.orionrestapplication.annotation.Monitor;
 import com.rest.app.orionrestapplication.dto.RegDto;
 import com.rest.app.orionrestapplication.exception.EntityAlreadyExistException;
+import com.rest.app.orionrestapplication.model.MonitorType;
 import com.rest.app.orionrestapplication.model.User;
 import com.rest.app.orionrestapplication.service.UserService;
+import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,12 +14,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.HashMap;
-import java.util.Map;
-
 @RestController
-@RequestMapping(value = "/api/reg/")
+@RequestMapping(value = "/reg/")
+@Log4j
 public class RegisterController {
+    private static final String URL_VALUE = "/reg/";
 
     private final UserService userService;
 
@@ -26,16 +28,20 @@ public class RegisterController {
     }
 
     @PostMapping(value = "new")
-    public ResponseEntity register(@RequestBody RegDto regDto) {
+    @Monitor(requestName = MonitorType.POST)
+    public ResponseEntity<RegDto> register(@RequestBody RegDto regDto) {
+        log.info("Called [" + URL_VALUE + "new " + "PostDto: " + regDto.toString());
         var userUsername = userService.findByUserName(regDto.getUsername());
         var userEmail = userService.findByEmail(regDto.getEmail());
 
         if (userUsername != null) {
+            log.warn("Username " + userUsername + "already exist");
             throw new EntityAlreadyExistException("Username already exists");
         }
 
         if (userEmail != null) {
-            throw new EntityAlreadyExistException("Email already exists");
+            log.warn("Email " + userEmail + "already exist");
+            throw new EntityAlreadyExistException("Email already exist");
         }
 
         var result = new User();
@@ -47,14 +53,7 @@ public class RegisterController {
 
         var registeredUser = userService.register(result);
 
-        Map<Object, Object> response = new HashMap<>();
-        response.put("username", registeredUser.getUsername());
-        response.put("firstName", registeredUser.getFirstName());
-        response.put("lastName", registeredUser.getLastName());
-        response.put("email", registeredUser.getEmail());
-//        response.put("updated", registeredUser.getUpdated());
-//        response.put("created", registeredUser.getCreated());
-        response.put("status", registeredUser.getStatus());
+        var response = RegDto.fromUser(registeredUser);
 
         return ResponseEntity.ok(response);
     }

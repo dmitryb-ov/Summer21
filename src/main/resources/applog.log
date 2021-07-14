@@ -1,0 +1,119 @@
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History(username=null, ip=0:0:0:0:0:0:0:1, requestType=POST, className=com.rest.app.orionrestapplication.rest.AuthController, methodName=login)
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login'}
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='115'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Mon Jul 12 22:14:41 MSK 2021', created='Mon Jul 12 22:14:41 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='116'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:30:32 MSK 2021', created='Wed Jul 14 08:30:32 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='116'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:30:32 MSK 2021', created='Wed Jul 14 08:30:32 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='117'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:32:53 MSK 2021', created='Wed Jul 14 08:32:53 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='117'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:32:53 MSK 2021', created='Wed Jul 14 08:32:53 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:60 - Token set
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='118'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:35:58 MSK 2021', created='Wed Jul 14 08:35:58 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='118'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:35:58 MSK 2021', created='Wed Jul 14 08:35:58 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:60 - Token set
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='119'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:38:16 MSK 2021', created='Wed Jul 14 08:38:16 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='119'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:38:16 MSK 2021', created='Wed Jul 14 08:38:16 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=null, token=null)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ ERROR] - com.rest.app.orionrestapplication.rest.AuthController:72 - Invalid username or password
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='120'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:40:30 MSK 2021', created='Wed Jul 14 08:40:30 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='120'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:40:30 MSK 2021', created='Wed Jul 14 08:40:30 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:60 - Token set
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='121'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:46:20 MSK 2021', created='Wed Jul 14 08:46:20 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='121'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:46:20 MSK 2021', created='Wed Jul 14 08:46:20 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:60 - Token set
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='122'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:46:57 MSK 2021', created='Wed Jul 14 08:46:57 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='122'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:46:57 MSK 2021', created='Wed Jul 14 08:46:57 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.PostController:54 - Called [/post/9
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='123'username='alex', ip='0:0:0:0:0:0:0:1', requestType='GET', className='com.rest.app.orionrestapplication.rest.PostController', methodName='getPostById', updated='Wed Jul 14 08:47:08 MSK 2021', created='Wed Jul 14 08:47:08 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='123'username='alex', ip='0:0:0:0:0:0:0:1', requestType='GET', className='com.rest.app.orionrestapplication.rest.PostController', methodName='getPostById', updated='Wed Jul 14 08:47:08 MSK 2021', created='Wed Jul 14 08:47:08 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:60 - Token set
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='124'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:50:26 MSK 2021', created='Wed Jul 14 08:50:26 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='124'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:50:26 MSK 2021', created='Wed Jul 14 08:50:26 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.PostController:54 - Called [/post/9
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.PostServiceImpl:55 - Get post by id=9
+[ INFO ] - com.rest.app.orionrestapplication.dto.PostDto:36 - Convert post to postDto. PostDto(username=alex, email=mymail@mail.com, text=HEHEHE 12342567)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='125'username='alex', ip='0:0:0:0:0:0:0:1', requestType='GET', className='com.rest.app.orionrestapplication.rest.PostController', methodName='getPostById', updated='Wed Jul 14 08:50:38 MSK 2021', created='Wed Jul 14 08:50:38 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='125'username='alex', ip='0:0:0:0:0:0:0:1', requestType='GET', className='com.rest.app.orionrestapplication.rest.PostController', methodName='getPostById', updated='Wed Jul 14 08:50:38 MSK 2021', created='Wed Jul 14 08:50:38 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.PostController:68 - Called [/post/update/7 PostDto: PostDto(username=null, email=null, text=HEHEHE 11123422222567)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.PostServiceImpl:55 - Get post by id=7
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='126'username='alex', ip='0:0:0:0:0:0:0:1', requestType='PUT', className='com.rest.app.orionrestapplication.rest.PostController', methodName='updatePost', updated='Wed Jul 14 08:50:52 MSK 2021', created='Wed Jul 14 08:50:52 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='126'username='alex', ip='0:0:0:0:0:0:0:1', requestType='PUT', className='com.rest.app.orionrestapplication.rest.PostController', methodName='updatePost', updated='Wed Jul 14 08:50:52 MSK 2021', created='Wed Jul 14 08:50:52 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:60 - Token set
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='127'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:53:04 MSK 2021', created='Wed Jul 14 08:53:04 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='127'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:53:04 MSK 2021', created='Wed Jul 14 08:53:04 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.PostController:68 - Called [/post/update/7 PostDto: PostDto(username=null, email=null, text=HEHEHE 11123422222567)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.PostServiceImpl:55 - Get post by id=7
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='128'username='alex', ip='0:0:0:0:0:0:0:1', requestType='PUT', className='com.rest.app.orionrestapplication.rest.PostController', methodName='updatePost', updated='Wed Jul 14 08:53:14 MSK 2021', created='Wed Jul 14 08:53:14 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='128'username='alex', ip='0:0:0:0:0:0:0:1', requestType='PUT', className='com.rest.app.orionrestapplication.rest.PostController', methodName='updatePost', updated='Wed Jul 14 08:53:14 MSK 2021', created='Wed Jul 14 08:53:14 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:60 - Token set
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='129'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:55:55 MSK 2021', created='Wed Jul 14 08:55:55 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='129'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Wed Jul 14 08:55:55 MSK 2021', created='Wed Jul 14 08:55:55 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.PostController:68 - Called [/post/update/7 PostDto: PostDto(username=null, email=null, text=HEHEHE 11123422222567)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.PostServiceImpl:55 - Get post by id=7
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.PostController:80 - Get user by username=alex
+[ INFO ] - com.rest.app.orionrestapplication.dto.PostDto:23 - Convert postDto to Post
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.PostServiceImpl:48 - Updated post. PostId: 7 UserId: 1
+[ INFO ] - com.rest.app.orionrestapplication.dto.PostDto:34 - Convert post to postDto
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='130'username='alex', ip='0:0:0:0:0:0:0:1', requestType='PUT', className='com.rest.app.orionrestapplication.rest.PostController', methodName='updatePost', updated='Wed Jul 14 08:56:06 MSK 2021', created='Wed Jul 14 08:56:06 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='130'username='alex', ip='0:0:0:0:0:0:0:1', requestType='PUT', className='com.rest.app.orionrestapplication.rest.PostController', methodName='updatePost', updated='Wed Jul 14 08:56:06 MSK 2021', created='Wed Jul 14 08:56:06 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.PostController:54 - Called [/post/9
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.PostServiceImpl:55 - Get post by id=9
+[ INFO ] - com.rest.app.orionrestapplication.dto.PostDto:34 - Convert post to postDto
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='131'username='alex', ip='0:0:0:0:0:0:0:1', requestType='GET', className='com.rest.app.orionrestapplication.rest.PostController', methodName='getPostById', updated='Wed Jul 14 08:56:13 MSK 2021', created='Wed Jul 14 08:56:13 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='131'username='alex', ip='0:0:0:0:0:0:0:1', requestType='GET', className='com.rest.app.orionrestapplication.rest.PostController', methodName='getPostById', updated='Wed Jul 14 08:56:13 MSK 2021', created='Wed Jul 14 08:56:13 MSK 2021'}

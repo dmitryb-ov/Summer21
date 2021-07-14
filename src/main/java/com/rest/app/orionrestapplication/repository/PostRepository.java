@@ -1,10 +1,9 @@
 package com.rest.app.orionrestapplication.repository;
 
-import com.rest.app.orionrestapplication.model.Role;
+import com.rest.app.orionrestapplication.model.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface RoleRepository extends JpaRepository<Role, Long> {
-    Role findByName(String name);
+public interface PostRepository extends JpaRepository<Post, Long> {
 }

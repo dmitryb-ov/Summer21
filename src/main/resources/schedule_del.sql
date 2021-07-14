@@ -1,0 +1,1 @@
+SELECT * FROM rest_posts WHERE last_request_date < CURRENT_DATE

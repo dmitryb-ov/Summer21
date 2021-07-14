@@ -6,7 +6,7 @@ import com.rest.app.orionrestapplication.model.User;
 import com.rest.app.orionrestapplication.repository.RoleRepository;
 import com.rest.app.orionrestapplication.repository.UserRepository;
 import com.rest.app.orionrestapplication.service.UserService;
-import lombok.extern.slf4j.Slf4j;
+import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -15,8 +15,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-@Slf4j
+@Log4j
 public class UserServiceImpl implements UserService {
+    private static final String IS_NULL = " is null";
 
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
@@ -41,45 +42,53 @@ public class UserServiceImpl implements UserService {
 
         var registeredUser = userRepository.save(user);
 
-//        log.info("");
+        log.info("User registered: ResponseId: " + registeredUser.getId());
         return registeredUser;
     }
 
     @Override
     public List<User> getAll() {
         List<User> userList = userRepository.findAll();
+        log.info("Get all users. Rows=" + userList.size());
         return userList;
     }
 
     @Override
     public User findByUserName(String userName) {
         var user = userRepository.findByUsername(userName);
+        if (user == null) {
+            log.warn("User with name=" + userName + IS_NULL);
+            return null;
+        }
+        log.info("Get user by name=" + userName);
         return user;
     }
 
     @Override
     public User findByEmail(String email) {
         var user = userRepository.findByEmail(email);
-        if(user == null){
+        if (user == null) {
+            log.warn("User with email=" + email + IS_NULL);
             return null;
         }
-
+        log.info("Get user by email=" + email);
         return user;
     }
 
     @Override
     public User findById(Long id) {
         var user = userRepository.findById(id).orElse(null);
-
-        if(user == null){
+        if (user == null) {
+            log.warn("User with id=" + id + IS_NULL);
             return null;
         }
-
+        log.info("Get user by id=" + id);
         return user;
     }
 
     @Override
     public void delete(Long id) {
+        log.info("Delete user with id=" + id);
         userRepository.deleteById(id);
     }
 }
