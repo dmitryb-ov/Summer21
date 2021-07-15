@@ -3,12 +3,18 @@ package com.rest.app.orionrestapplication.dto;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.rest.app.orionrestapplication.model.User;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.extern.log4j.Log4j;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Log4j
+@NoArgsConstructor
 public class UserDto extends BaseUserDto {
+
+    public UserDto(String username, String firstName, String lastName, String email) {
+        super(username, firstName, lastName, email);
+    }
 
     public User toUser() {
         var user = new User();

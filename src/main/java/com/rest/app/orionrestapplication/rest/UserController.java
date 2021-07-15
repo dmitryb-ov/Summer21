@@ -34,7 +34,13 @@ public class UserController {
 
         if (user == null) {
             log.warn("User with id=" + id + " is null");
-            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+            return new ResponseEntity<>(
+                    new UserDto(
+                            null,
+                            null,
+                            null,
+                            "Not found"),
+                    HttpStatus.NOT_FOUND);
         }
 
         var result = UserDto.fromUser(user);

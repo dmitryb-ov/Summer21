@@ -3,12 +3,16 @@ package com.rest.app.orionrestapplication.dto;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.rest.app.orionrestapplication.model.Status;
 import com.rest.app.orionrestapplication.model.User;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
+@AllArgsConstructor
+@NoArgsConstructor
 public class RegDto {
     private String username;
     private String firstName;

@@ -33,7 +33,7 @@ public class AdminController {
         var user = userService.findById(id);
 
         if (user == null) {
-            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         var result = AdminUserDto.fromAdminUser(user);
 

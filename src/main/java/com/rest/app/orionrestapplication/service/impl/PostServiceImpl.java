@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityNotFoundException;
 import javax.transaction.Transactional;
 import java.util.List;
 
@@ -42,7 +43,7 @@ public class PostServiceImpl implements PostService {
     @Override
     @Modifying(clearAutomatically = true)
     @Transactional
-    public Post updatePost(Post post, Long userId) {
+    public Post updatePost(Post post, Long userId) throws EntityNotFoundException {
         post.setAuthor(userRepository.getById(userId));
         var postResponse = postRepository.save(post);
         log.info("Updated post. PostId: " + post.getId() + " UserId: " + userId);
