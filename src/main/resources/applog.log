@@ -568,3 +568,12 @@
 [ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
 [ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:26 - History added. Response: History{id='176'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.RegisterController', methodName='register', updated='Thu Jul 15 20:26:23 MSK 2021', created='Thu Jul 15 20:26:23 MSK 2021'}
 [ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='176'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.RegisterController', methodName='register', updated='Thu Jul 15 20:26:23 MSK 2021', created='Thu Jul 15 20:26:23 MSK 2021'}
+21/07/15 20:41:34 [ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+21/07/15 20:41:50 [ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+21/07/15 20:41:51 [ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+21/07/15 20:41:51 [ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+21/07/15 20:41:51 [ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:60 - Token set
+21/07/15 20:41:51 [ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+21/07/15 20:41:52 [ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:26 - History added. Response: History{id='177'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Thu Jul 15 20:41:51 MSK 2021', created='Thu Jul 15 20:41:51 MSK 2021'}
+21/07/15 20:41:52 [ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='177'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Thu Jul 15 20:41:51 MSK 2021', created='Thu Jul 15 20:41:51 MSK 2021'}
+21/07/15 20:42:23 [ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
