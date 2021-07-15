@@ -64,9 +64,6 @@ public class AuthController {
             response.setUsername(username);
             response.setPassword("hidden");
             response.setToken(token);
-//            Map<Object, Object> response = new HashMap<>();
-//            response.put("username", username);
-//            response.put("token", token);
 
             return ResponseEntity.ok(response);
         } catch (AuthenticationException e) {

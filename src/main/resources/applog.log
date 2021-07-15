@@ -117,3 +117,88 @@
 [ INFO ] - com.rest.app.orionrestapplication.dto.PostDto:34 - Convert post to postDto
 [ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:27 - History added. Response: History{id='131'username='alex', ip='0:0:0:0:0:0:0:1', requestType='GET', className='com.rest.app.orionrestapplication.rest.PostController', methodName='getPostById', updated='Wed Jul 14 08:56:13 MSK 2021', created='Wed Jul 14 08:56:13 MSK 2021'}
 [ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='131'username='alex', ip='0:0:0:0:0:0:0:1', requestType='GET', className='com.rest.app.orionrestapplication.rest.PostController', methodName='getPostById', updated='Wed Jul 14 08:56:13 MSK 2021', created='Wed Jul 14 08:56:13 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:47 - Called [/auth/login AuthDto: AuthDto(username=alex, password=password123, token=null)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.AuthController:60 - Token set
+[ ERROR] - com.rest.app.orionrestapplication.aop.RequestListener:46 - User is not login.
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:26 - History added. Response: History{id='132'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Thu Jul 15 14:47:32 MSK 2021', created='Thu Jul 15 14:47:32 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='132'username='null', ip='0:0:0:0:0:0:0:1', requestType='POST', className='com.rest.app.orionrestapplication.rest.AuthController', methodName='login', updated='Thu Jul 15 14:47:32 MSK 2021', created='Thu Jul 15 14:47:32 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.PostController:68 - Called [/post/update/3 PostDto: PostDto(username=null, email=null, text=HEHEHE 11123422222567)
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.PostServiceImpl:55 - Get post by id=3
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.UserServiceImpl:63 - Get user by name=alex
+[ INFO ] - com.rest.app.orionrestapplication.rest.PostController:80 - Get user by username=alex
+[ INFO ] - com.rest.app.orionrestapplication.dto.PostDto:23 - Convert postDto to Post
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.PostServiceImpl:48 - Updated post. PostId: 3 UserId: 1
+[ INFO ] - com.rest.app.orionrestapplication.dto.PostDto:34 - Convert post to postDto
+[ INFO ] - com.rest.app.orionrestapplication.service.impl.HistoryServiceImpl:26 - History added. Response: History{id='133'username='alex', ip='0:0:0:0:0:0:0:1', requestType='PUT', className='com.rest.app.orionrestapplication.rest.PostController', methodName='updatePost', updated='Thu Jul 15 14:47:54 MSK 2021', created='Thu Jul 15 14:47:54 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.aop.RequestListener:52 - History add. History{id='133'username='alex', ip='0:0:0:0:0:0:0:1', requestType='PUT', className='com.rest.app.orionrestapplication.rest.PostController', methodName='updatePost', updated='Thu Jul 15 14:47:54 MSK 2021', created='Thu Jul 15 14:47:54 MSK 2021'}
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.OrionRestApplication:16 - Start application
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
+[ INFO ] - com.rest.app.orionrestapplication.config.InitData:53 - Run check old posts
